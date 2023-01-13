@@ -1,0 +1,16 @@
+{
+  "name": "graphql-chat-app",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

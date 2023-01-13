@@ -1,0 +1,296 @@
+/* ===================== Footer ===================== */
+footer {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* ===================== Main Coin Worth ===================== */
+.main_coin {
+  height: 450px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0px #0000004a;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.main_coin .search_box {
+  width: 25%;
+  position: relative;
+}
+
+.main_coin .search_box input {
+  width: 100%;
+  padding: 9px 0 5px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #d6d6d6;
+  font-size: 0.7em;
+}
+
+.main_coin .search_box input:focus {
+  border: none;
+  outline: none;
+}
+
+.main_coin .search_box i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #adadad;
+}
+
+.main_coin .body {
+  width: 100%;
+  height: 100%;
+}
+
+.main_coin .body ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 10px 18px;
+}
+
+.main_coin .body ul li {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_coin .body ul li:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main_coin .body ul li p {
+  font-size: 0.8em;
+}
+
+.main_coin .body ul li:nth-child(1) p {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  font-size: 0.6em;
+  color: #adadad;
+}
+
+.main_coin .body ul li:nth-child(3) p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  font-size: 0.6em;
+}
+
+.main_coin .body ul li:nth-child(1) p:nth-child(1) {
+  font-size: 0.8em;
+  color: #000;
+}
+
+.main_coin .body ul li:nth-child(3) p:nth-child(1) {
+  font-size: 0.8em;
+  color: #000;
+}
+
+.main_coin .body ul li:nth-child(1) p span {
+  font-size: 1em;
+  color: #000;
+}
+
+.main_coin .body ul li:nth-child(3) p span {
+  font-size: 1em;
+  color: #33ff00;
+}
+
+.main_coin .body ul li p img {
+  width: 15px;
+  height: 15px;
+}
+
+/* ===================== Recent Orders ===================== */
+.recent_orders {
+  height: 450px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0px #0000004a;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.recent_orders .btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recent_orders .btns div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0  18px;
+}
+
+.recent_orders .btns div a {
+  color: #6d6d6d;
+  font-size: 0.9em;
+}
+
+.recent_orders .btns div a.active {
+  color: #7642c9;
+  font-size: 0.9em;
+}
+
+.recent_orders .btns .cancel_all {
+  border-radius: 5px;
+  background-color: #e72c2c48;
+  color: red;
+  padding: 5px 10px;
+}
+
+.recent_orders .body {
+  width: 100%;
+  height: 100%;
+}
+
+.recent_orders .body ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0 18px;
+}
+
+.recent_orders .body ul li {
+  width: 7.14%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent_orders .body ul li p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    font-size: 0.65em;
+    font-weight: bold;
+    color: #6d6d6d;
+    border: 1px solid #dfdfdf;
+}
+
+.recent_orders .body ul li:nth-child(13) p:nth-child(1) {
+  flex-direction: column;
+  color: #6d6d6d !important;
+}
+
+.recent_orders .body ul li:nth-child(13) p {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.recent_orders .body ul li:nth-child(13) p:nth-child(odd) {
+  color: #33ff00;
+}
+
+.recent_orders .body ul li:nth-child(13) p:nth-child(even) {
+  color: red;
+}
+
+.recent_orders .body ul li:nth-child(14) p:nth-child(1) {
+  font-size: 0.65em !important;
+  color: #6d6d6d !important;
+}
+
+.recent_orders .body ul li:nth-child(14) p {
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1em;
+}
+
+.recent_orders .body ul li:nth-child(14) p .bx-link-external {
+  color: blue;
+}
+
+.recent_orders .body ul li:nth-child(14) p .bx-duplicate {
+  color: #7642c9;
+}
+
+.recent_orders .body ul li:nth-child(14) p .bx-x-circle {
+  color: red;
+}
+
+.entry-f {
+  background-color: #33ff0028;
+}
+
+.entry-f span {
+  color: #33ff00  ;
+}
+
+.entry-p {
+  background-color: #ffd9002f;
+}
+
+.entry-p span {
+  color: goldenrod  ;
+}
+
+.entry-c {
+  background-color: #ff00002c;
+}
+
+.entry-c span {
+  color: red  ;
+}
+
+/* ===================== Media Query ===================== */
+/* for 992px monitirs */
+@media screen and (max-width: 992px) {
+  .main_coin {
+    border-radius: 0;
+  }
+}
+
+/* for 768px monitirs */
+@media screen and (max-width: 768px) {
+  .recent_orders {
+    display: none;
+  }
+}
+
+/* for 576px monitirs */
+@media screen and (max-width: 576px) {
+  .main_coin {
+    display: none;
+  }
+}

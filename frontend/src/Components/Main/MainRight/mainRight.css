@@ -1,0 +1,452 @@
+/* ++++++++++++++++++++ Main Right ++++++++++++++++++++ */
+.main_right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/* ++++++++++++++++++++ Trade Info ++++++++++++++++++++ */
+.trade_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Trade Gain Section */
+.trade_gain {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px #0000004a;
+    border-radius: 10px;
+    padding: 35px 0 35px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.trade_gain .title {
+    background-color: greenyellow;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.trade_gain .title p {
+    width: 100px;
+    color: #fff;
+    font-size: 0.9em;
+    transform: rotate(-90deg) translate(-30%, -165%);
+}
+
+.trade_gain .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.trade_gain .item p {
+    font-size: 0.7em;
+    font-weight: 600;
+    color: #bbb;
+}
+
+.trade_gain .item span {
+    font-size: 1em;
+    font-weight: 500;
+    color: red;
+}
+
+.trade_gain .item:nth-child(2) span {
+    color: greenyellow;
+}
+
+/* Signal Section */
+.signal {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px #0000004a;
+    border-radius: 10px;
+    padding: 35px 0 35px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.signal .title {
+    background-color: #7642c9;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.signal .title p {
+    width: 100px;
+    color: #fff;
+    font-size: 0.9em;
+    transform: rotate(-90deg) translate(-30%, -165%);
+}
+
+.signal .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.signal .item p {
+    font-size: 0.7em;
+    font-weight: 600;
+    color: #bbb;
+}
+
+.signal .item span {
+    font-size: 1em;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* ++++++++++++++++++++ Trade Chart ++++++++++++++++++++ */
+.trade_chart-1 {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px #0000004a;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trade_chart-1 h4 {
+    align-self: flex-start;
+}
+
+.trade_chart-1 .btns {
+    display: flex;
+    align-items: center;
+    align-self: end;
+    gap: 5px;
+}
+
+.trade_chart-1 .chart {
+    width: 100%;
+}
+
+.trade_chart-2 {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px #0000004a;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trade_chart-2 img {
+    border-radius: 10px;
+}
+
+/* ++++++++++++++++++++ Chat and Setting ++++++++++++++++++++ */
+.chat_and_setting {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+/* chat section */
+.chat {
+    width: 100%;
+    height: 249px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px #0000004a;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat .search_box {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.chat .search_box input {
+    width: 100%;
+    padding: 9px 0 5px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d6d6d6;
+    font-size: 0.7em;
+}
+
+.chat .search_box input:focus {
+    border: none;
+    outline: none;
+}
+
+.chat .search_box i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #adadad;
+}
+
+.chat .chat_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    overflow-y: scroll;
+}
+
+.chat .chat_body p {
+    align-self: center;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.chat .chat_body .item {
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+
+.chat .chat_body .item .user_profile-img {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.chat .chat_body .item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.chat .chat_body .item .user_message {
+    background-color: #7642c93d;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.chat .chat_body .item-me {
+    align-self: end;
+}
+
+.chat .chat_body .item-me .user_message-me {
+    width: 100%;
+    background-color: #52c94271;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.chat .chat_body .item-me .user_message-me .user_name {
+    color: #1b6e10;
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+
+.chat .chat_body .item .user_message .user_name {
+    color: #7642c9;
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+
+.chat .chat_body .item .user_message .message {
+    font-size: 0.7em;
+    color: #4e4e4e;
+    margin-bottom: 8px;
+}
+
+.chat .chat_body .item .user_message .time {
+    font-size: 0.5em;
+    color: #adadad;
+    margin-bottom: 8px;
+}
+
+.chat .form_section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+    padding-top: 5px;
+}
+
+.chat .form_section input {
+    flex: 1;
+    padding: 9px 0 5px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d6d6d6;
+    font-size: 0.7em;
+}
+
+
+.chat .form_section input:focus {
+    border: none;
+    outline: none;
+}
+
+.chat .form_section button {
+    background-color: #7642c9;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.chat .form_section button:hover {
+    background-color: #4f1ca0;
+}
+
+.chat .form_section button i {
+    color: #fff;
+}
+
+/* setting section */
+.setting {
+    width: 100%;
+    height: 249px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px #0000004a;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.setting .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+    padding-bottom: 5px;
+}
+
+.setting .btns button i {
+    font-size: 0.8em;
+}
+
+.setting .btns button i::before {
+    vertical-align: -2px;
+    margin-right: 3px;
+}
+
+.setting .body {
+    width: 100%;
+    height: 100%;
+}
+
+.setting .body {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.setting .body ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.setting .body ul li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 15px 5px;
+}
+
+.setting .body ul li:nth-child(1) {
+    background-color: #d6d6d6;
+    border: none;
+}
+
+.setting .body ul li p {
+    font-size: 0.8em;
+}
+
+.setting .body ul li p:nth-child(1) {
+    font-weight: bold;
+}
+
+/* ===================== Media Query ===================== */
+/* for 992px monitirs */
+@media screen and (max-width: 992px) {
+    .main_right {
+        gap: 20px;
+    }
+
+    .trade_info {
+        flex-direction: column;
+    }
+    
+    .chat_and_setting {
+        height: 100%;
+    }
+    
+    .chat {
+        height: 390px;
+    }
+
+    .setting {
+        height: 390px;
+    }
+  }
+  
+  /* for 768px monitirs */
+  @media screen and (max-width: 768px) {
+    .chat_and_setting {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .main_right {
+        gap: 10px;
+    }
+  }
+  
+  /* for 576px monitirs */
+  @media screen and (max-width: 576px) {
+    .chat {
+        height: 390px;
+    }
+
+    .setting {
+        height: 390px;
+    }
+  }
